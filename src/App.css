@@ -1,0 +1,94 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom right, #ff6b6b, #6b66ff); /* Renk geçişi: Kırmızıdan mora */
+  color: #fff; /* Beyaz */
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.task-create {
+  width: 450px;
+}
+
+.task-update {
+  width: 100%;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-label {
+  margin: 10px 0;
+}
+
+.task-input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #4facfe, #00f2fe); /* Renk geçişi: Mavidan turuncuya */
+  color: #333; /* Koyu gri tonu */
+}
+
+.task-button,
+.update-button,
+.task-edit,
+.task-delete {
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.task-button {
+  background: linear-gradient(to bottom, #28a745, #218838); /* Renk geçişi: Yeşilden koyu yeşile */
+  color: #fff; /* Beyaz */
+}
+
+.update-button {
+  background: linear-gradient(to bottom, #17a2b8, #007bff); /* Renk geçişi: Mavidan koyu mavile */
+  color: #fff; /* Beyaz */
+}
+
+.task-show {
+  border: 2px solid #fff; /* Beyaz */
+  border-radius: 10px;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.task-edit,
+.task-delete {
+  font-size: 14px;
+}
+
+.task-edit {
+  background: linear-gradient(to bottom, #ffc107, #ff9800); /* Renk geçişi: Sarıdan turuncuya */
+  color: #fff; /* Beyaz */
+}
+
+.task-delete {
+  background: linear-gradient(to bottom, #dc3545, #c82333); /* Renk geçişi: Kırmızıdan koyu kırmızıya */
+  color: #fff; /* Beyaz */
+}
